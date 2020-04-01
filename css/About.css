@@ -1,4 +1,4 @@
-    body    {
+body    {
     background-color: #E3E2DF;
     margin: 0em;
     }
@@ -34,11 +34,6 @@
         background-color: white;
         border: none;
         height: 4px;
-    }
-
-    a   {
-        text-decoration: none;
-        color: black;
     }
 
     footer  {
