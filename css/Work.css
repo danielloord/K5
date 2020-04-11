@@ -109,7 +109,6 @@ body    {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 100px;
-    /* Ser till att menyn är överst*/
     z-index: 2;
     }
 
@@ -120,13 +119,10 @@ body    {
     display: block;
     }
 
-    /* Ändrar färgen på länkarna vid hover */
     .dropdownContent a:hover {background-color: #ddd;}
 
-    /* Visar dropdown-menyn vid hover */
     .dropdown:hover .dropdownContent {display: block;}
 
-    /* Ändrar bakgrundsfärg på knappen när innehållet visas*/
     .dropdown:hover .dropdownButton {background-color: #e2c1c8;}
 
     
@@ -136,7 +132,6 @@ body    {
     }
 
     #introductionArticle    {
-    /*width: 50%;*/
     width: 90%;
     padding-left: 20px;
     }
@@ -149,19 +144,19 @@ body    {
         margin-right: auto;
     }
 
-    #homeGrid   {
+    #workGrid   {
     display: grid;
     grid-template-columns: 1fr;
  
     }
 
     @media (min-width: 1440px)  {
-        #homeGrid   {
+        #workGrid   {
             grid-template-columns: 1fr 1fr;
         }
     }
 
-    #aboutMeButton  {
+    #contactMeButton  {
     width: 100px;
     background-color: #AC3B61;
     padding: 14px;
@@ -170,8 +165,7 @@ body    {
     text-align: center;
     }
 
-    /* Ändrar Färgen på aboutMeButton vid hover */
-    #aboutMeButton:hover {background-color: #e2c1c8;}
+    #contactMeButton:hover {background-color: #e2c1c8;}
 
 
 

@@ -30,16 +30,17 @@
         font-size: 20px;
     }
 
+    a   {
+        text-decoration: none;
+        color: black;
+    }
+
     hr  {
         background-color: white;
         border: none;
         height: 4px;
     }
 
-    a   {
-        text-decoration: none;
-        color: black;
-    }
 
     footer  {
     background-color: #AC3B61;

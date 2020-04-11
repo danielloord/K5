@@ -1,4 +1,4 @@
-    body    {
+body    {
     background-color: #E3E2DF;
     margin: 0em;
     }
@@ -34,6 +34,8 @@
         background-color: white;
         border: none;
         height: 4px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     a   {
@@ -108,7 +110,6 @@
     position: absolute;
     background-color: #f1f1f1;
     min-width: 100px;
-    /* Ser till att menyn är överst*/
     z-index: 2;
     }
 
@@ -119,58 +120,52 @@
     display: block;
     }
 
-    /* Ändrar färgen på länkarna vid hover */
     .dropdownContent a:hover {background-color: #ddd;}
-
-    /* Visar dropdown-menyn vid hover */
     .dropdown:hover .dropdownContent {display: block;}
-
-    /* Ändrar bakgrundsfärg på knappen när innehållet visas*/
     .dropdown:hover .dropdownButton {background-color: #e2c1c8;}
-
     
     #helloText  {
         font-size: 40px;
         margin-bottom: 0px;
+        padding-left: 20px;
     }
 
-    #introductionArticle    {
-    width: 90%;
-    padding-left: 20px;
+    #contactGrid {
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+
     }
 
-    #homeImage {
-        width: 90%;
-        padding-top: 40px;
+    @media (min-width: 768px)  {
+        #contactGrid   {
+            grid-template-columns: 0.4fr 0.3fr;
+        }
+    }
+    
+    .logo   {
+        width: 70%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-    #homeGrid   {
-    display: grid;
-    grid-template-columns: 1fr;
- 
+    #logoGrid   {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 20px;
+        width: 90%;
+        
     }
 
-    @media (min-width: 1440px)  {
-        #homeGrid   {
-            grid-template-columns: 1fr 1fr;
-        }
-    }
-
-    #aboutMeButton  {
+    #homeButton  {
     width: 100px;
     background-color: #AC3B61;
     padding: 14px;
     border: none;
     outline: none;
     text-align: center;
+    margin-left: 20px;
     }
 
-    /* Ändrar Färgen på aboutMeButton vid hover */
-    #aboutMeButton:hover {background-color: #e2c1c8;}
-
-
-
-
+    #homeButton:hover {background-color: #e2c1c8;}
